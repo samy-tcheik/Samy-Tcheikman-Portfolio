@@ -1,9 +1,5 @@
 /**
-* Template Name: Personal
-* Updated: Jul 27 2023 with Bootstrap v5.3.1
-* Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
+* Samy Tcheikman - Portfolio
 */
 (function() {
   "use strict";
