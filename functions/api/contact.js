@@ -8,7 +8,7 @@
  *   CONTACT_TO      — destination inbox (default: samytcheikman@gmail.com)
  *   CONTACT_FROM    — verified sender (default: Portfolio <onboarding@resend.dev>)
  *
- * Frontend: existing assets/vendor/php-email-form/validate.js POSTs FormData
+ * Frontend: assets/js/contact.js POSTs FormData (with client-side validation)
  * and expects plain-text "OK" on success, error text otherwise.
  */
 
