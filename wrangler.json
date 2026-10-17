@@ -1,3 +1,10 @@
 {
-  "previews": {}
+  "$schema": "https://developers.cloudflare.com/pages/functions/wrangler-configuration-schema.json",
+  "name": "samy-tcheikman-portfolio",
+  "compatibility_date": "2026-10-17",
+  "pages_build_output_dir": ".",
+  "vars": {
+    "CONTACT_TO": "samytcheikman@gmail.com",
+    "CONTACT_FROM": "Portfolio <onboarding@resend.dev>"
+  }
 }

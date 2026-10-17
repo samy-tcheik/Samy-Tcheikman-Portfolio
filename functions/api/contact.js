@@ -120,8 +120,8 @@ export async function onRequestPost(context) {
       );
     }
 
-    const to = env.CONTACT_TO;
-    const from = env.CONTACT_FROM;
+    const to = env.CONTACT_TO || "samytcheikman@gmail.com";
+    const from = env.CONTACT_FROM || "Portfolio <onboarding@resend.dev>";
 
     const res = await fetch("https://api.resend.com/emails", {
       method: "POST",
