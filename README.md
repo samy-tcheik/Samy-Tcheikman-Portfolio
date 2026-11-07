@@ -2,7 +2,7 @@
 
 > Personal portfolio website showcasing 6+ years of experience in **React**, **React Native**, and **Laravel**. Built as a fast, SEO-friendly static site ready for **Cloudflare Pages**.
 
-**Live:** https://www.samytcheikman.com/
+**Live:** https://samytcheikman.com/
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
@@ -24,14 +24,14 @@
 
 ## 🛠️ Tech Stack
 
-| Layer | Technology |
-|---|---|
-| Markup / Style | HTML5, CSS3 (`assets/css/style.css`), Bootstrap 5 (vendored) |
-| JS | Vanilla JS (`assets/js/main.js`, `assets/js/canvas.js`), Swiper, Isotope, GLightbox, Waypoints, PureCounter |
-| Icons | Bootstrap Icons, Boxicons, Remixicon |
-| Fonts | Google Fonts (Open Sans, Raleway, Poppins) with `preconnect` + `display=swap` |
-| Backend | None (static) — contact form intentionally disabled pending serverless endpoint |
-| Hosting | Cloudflare Pages (static, no build step) |
+| Layer          | Technology                                                                                                  |
+| -------------- | ----------------------------------------------------------------------------------------------------------- |
+| Markup / Style | HTML5, CSS3 (`assets/css/style.css`), Bootstrap 5 (vendored)                                                |
+| JS             | Vanilla JS (`assets/js/main.js`, `assets/js/canvas.js`), Swiper, Isotope, GLightbox, Waypoints, PureCounter |
+| Icons          | Bootstrap Icons, Boxicons, Remixicon                                                                        |
+| Fonts          | Google Fonts (Open Sans, Raleway, Poppins) with `preconnect` + `display=swap`                               |
+| Backend        | None (static) — contact form intentionally disabled pending serverless endpoint                             |
+| Hosting        | Cloudflare Pages (static, no build step)                                                                    |
 
 > No `package.json`, no bundler — all dependencies are vendored under `assets/vendor/` so the site runs offline from any static host.
 
@@ -80,10 +80,10 @@ npx serve .
 2. Cloudflare Dashboard → **Workers & Pages** → **Create** → **Pages** → Connect to Git.
 3. Build settings:
    - Framework preset: **None**
-   - Build command: *(empty)*
+   - Build command: _(empty)_
    - Output directory: `/` (repo root)
 4. Add custom domain `www.samytcheikman.com` → Enforce HTTPS.
-5. Submit `https://www.samytcheikman.com/sitemap.xml` in Google Search Console.
+5. Submit `https://samytcheikman.com/sitemap.xml` in Google Search Console.
 
 ## 📬 Contact Form Status
 
