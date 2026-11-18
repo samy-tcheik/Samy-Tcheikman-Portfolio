@@ -835,6 +835,13 @@ section .container {
   background: rgba(0, 0, 0, 0.6);
 }
 
+.portfolio .portfolio-wrap img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
 .portfolio .portfolio-wrap::before {
   content: "";
   background: rgba(0, 0, 0, 0.6);
